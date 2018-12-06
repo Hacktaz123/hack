@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Client">
+      <UniqueIdentifier>{d167fcfd-2b0f-4e4a-8c1e-c8beb0117682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{28ea8a59-532a-40b3-aeb8-f3145aa4de7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{f43ce42b-0f06-4045-bf70-1666be93df00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{c156344c-1ccc-4fb1-9648-b7afea465cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{b78af288-7096-43c0-ac44-6632f70dffdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{3e192d08-749c-4c10-8e06-9a7f64655fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{556bb5b5-12ad-440e-8f31-76d6f725656f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Functions">
+      <UniqueIdentifier>{80429aa9-bbec-44ba-8f31-49454ecdab98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Functions\AimBot">
+      <UniqueIdentifier>{fe5c293c-0525-40f4-ad42-66fc7a4ce403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Functions\Misc">
+      <UniqueIdentifier>{a56afe7e-79f1-4b7b-b73b-a4eb1b37570b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Functions\Visuals">
+      <UniqueIdentifier>{72786571-2f7d-4dd2-876e-88c49ad944af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Functions\TriggerBot">
+      <UniqueIdentifier>{3b537eea-bb8a-4272-8fde-b6b53a9b9e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Information">
+      <UniqueIdentifier>{bfb4d502-8f2e-46ac-94df-134daafd5959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Variables.h" />
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoPistol.h">
+      <Filter>Client\Functions\AimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="FastZoom.h">
+      <Filter>Client\Functions\AimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Recoil.h">
+      <Filter>Client\Functions\AimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>Client\Functions\AimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="BunnyHop.h">
+      <Filter>Client\Functions\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundStrafe.h">
+      <Filter>Client\Functions\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Speed.h">
+      <Filter>Client\Functions\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerBot.h">
+      <Filter>Client\Functions\TriggerBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Crosshair.h">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="NoFlash.h">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Other.h">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenInfo.h">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>Client\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="Spread.h">
+      <Filter>Client\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponList.h">
+      <Filter>Client\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMsg.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMsg.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Files.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoPistol.cpp">
+      <Filter>Client\Functions\AimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="FastZoom.cpp">
+      <Filter>Client\Functions\AimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Recoil.cpp">
+      <Filter>Client\Functions\AimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons.cpp">
+      <Filter>Client\Functions\AimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="BunnyHop.cpp">
+      <Filter>Client\Functions\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundStrafe.cpp">
+      <Filter>Client\Functions\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Speed.cpp">
+      <Filter>Client\Functions\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerBot.cpp">
+      <Filter>Client\Functions\TriggerBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Crosshair.cpp">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="NoFlash.cpp">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Other.cpp">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenInfo.cpp">
+      <Filter>Client\Functions\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Info.cpp">
+      <Filter>Client\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="Spread.cpp">
+      <Filter>Client\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponList.cpp">
+      <Filter>Client\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMsg.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseMsg.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UserMsg.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Files.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
